@@ -1,0 +1,33 @@
+# Dependências do Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build e cache
+.ghost/
+.ghost-cli*
+.cache/
+.tmp/
+.DS_Store
+
+# Banco de dados local (SQLite)
+content/data/*.db
+content/data/*.db-journal
+
+# Uploads de imagens (para evitar subir mídia local pesada)
+content/images/
+
+# Logs
+logs/
+*.log
+
+# Versões instaladas do Ghost
+versions/
+
+# Configurações locais sensíveis
+config.development.json
+config.local.json
+
+# Ambiente
+.env
